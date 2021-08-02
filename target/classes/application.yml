@@ -1,0 +1,16 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /lemon
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/api-runner-back?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: "000000"
+
+
+logging:
+  level:
+    root: info
+    com.lemon.mapper: trace
